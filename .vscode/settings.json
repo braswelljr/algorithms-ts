@@ -1,0 +1,5 @@
+{
+  "typescript.format.enable": true,
+  "tslint.configFile": "",
+  "tslint.jsEnable": false
+}
