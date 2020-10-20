@@ -1,2 +1,2 @@
-# algorithms-ts
- Algorithms in typescript and js
+# <p align="center">ALGORITHMS-TS</p>
+ Algorithms in typescript and javascript
