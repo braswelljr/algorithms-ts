@@ -1,17 +1,17 @@
 import {arrayfill} from './../utils/utils'
 
-class BubbleSort {
+export class BubbleSort {
   array: any = []
-  constructor(array: any) {
+  constructor(array: any[]) {
     this.array = array
-    this.ascend()
+    console.log(`New BUbbleSort instance initialised`)
   }
 
   /**
    * Ascending order
    * 
    * @default ascend
-   * @retuen array
+   * @return array
    */
   ascend(): number [] {
     let index: number = 0
@@ -30,7 +30,7 @@ class BubbleSort {
    * Descending order
    *
    * @default ascend
-   * @retuen array
+   * @return array
    */
   descend(): number [] {
     let index: number = 0

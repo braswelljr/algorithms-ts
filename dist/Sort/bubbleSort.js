@@ -1,17 +1,18 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.BubbleSort = void 0;
 const utils_1 = require("./../utils/utils");
 class BubbleSort {
     constructor(array) {
         this.array = [];
         this.array = array;
-        this.ascend();
+        console.log(`New BUbbleSort instance initialised`);
     }
     /**
      * Ascending order
      *
      * @default ascend
-     * @retuen array
+     * @return array
      */
     ascend() {
         let index = 0;
@@ -29,7 +30,7 @@ class BubbleSort {
      * Descending order
      *
      * @default ascend
-     * @retuen array
+     * @return array
      */
     descend() {
         let index = 0;
@@ -44,6 +45,7 @@ class BubbleSort {
         return this.array;
     }
 }
+exports.BubbleSort = BubbleSort;
 /**
  * Initial a new Bubble object and pass the array as a param
  * To arrange in ascending order object.ascend()
