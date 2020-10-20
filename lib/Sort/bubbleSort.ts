@@ -1,10 +1,10 @@
-import {arrayfill} from './../utils/utils'
+import {arrayify} from '../utils/utils'
 
 export class BubbleSort {
   array: any = []
   constructor(array: any[]) {
     this.array = array
-    console.log(`New BUbbleSort instance initialised`)
+    console.log(`New BubbleSort instance initialised`)
   }
 
   /**
@@ -51,9 +51,9 @@ export class BubbleSort {
  * To arrange in ascending order object.ascend()
  * object.descend() to arrange in descending order
  */
-const bubble = new BubbleSort(arrayfill())
+const bubble = new BubbleSort(arrayify())
 console.log(`
-Array => ${arrayfill()}
+Array => ${arrayify()}
 Array(ascending order) => ${bubble.ascend()}
 Array(descending order) => ${bubble.descend()}
 `)

@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.arrayfill = void 0;
-exports.arrayfill = () => {
-    var array = [];
+exports.arrayify = void 0;
+exports.arrayify = () => {
+    const array = [];
     for (let index = 0; index < 10; index++) {
         array.push(Math.floor(Math.random() * 100));
     }

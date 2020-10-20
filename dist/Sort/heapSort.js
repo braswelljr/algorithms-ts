@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.HeapSort = void 0;
-const utils_1 = require("./../utils/utils");
+const utils_1 = require("../utils/utils");
 class HeapSort {
     constructor(array) {
         this.array = array;
@@ -55,9 +55,9 @@ Array.prototype.swap = function (x, y) {
     this[y] = excess;
     return this;
 };
-const mutate = utils_1.arrayfill();
-var heapSort = new HeapSort(mutate);
+const mutate = utils_1.arrayify();
+const heapSort = new HeapSort(mutate);
 console.log(`
 Original => ${mutate}
 Sorted => ${heapSort.sort()}`);
-//# sourceMappingURL=heapSort.js.map
+//# sourceMappingURL=HeapSort.js.map

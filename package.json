@@ -8,8 +8,8 @@
   },
   "scripts": {
     "build": "tsc --watch",
-    "start": "node ./dist/Sort/heapSort.js",
-    "serve": "nodemon ./dist/Sort/heapSort.js"
+    "start": "node ./dist/Sort/HeapSort.js",
+    "serve": "nodemon ./dist/Sort/HeapSort.js"
   },
   "repository": {
     "type": "git",

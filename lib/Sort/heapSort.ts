@@ -1,5 +1,4 @@
-import { arrayfill } from './../utils/utils'
-import { BubbleSort } from './bubbleSort'
+import { arrayify } from '../utils/utils'
 
 export class HeapSort {
   [x: string]: any;
@@ -67,8 +66,8 @@ Array.prototype.swap = function(x: any, y:any): any{
   this[y] = excess
   return this;
 }
-const mutate = arrayfill()
-var heapSort = new HeapSort(mutate);
+const mutate = arrayify()
+const heapSort = new HeapSort(mutate);
 console.log(`
 Original => ${mutate}
 Sorted => ${heapSort.sort()}`);
