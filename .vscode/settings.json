@@ -1,3 +1,5 @@
 {
-  "typescript.tsdk": "node_modules\\typescript\\lib"
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "vscode-md.options.mode": "ir",
+  "vscode-md.theme.code": "dracula"
 }
