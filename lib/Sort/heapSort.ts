@@ -6,7 +6,7 @@ class HeapSort {
     this.heapSize = array.length;
   }
 
-  sort(): any[] {
+  public sort = (): any[] => {
     console.log(`\nNew Heap Sort instance created`);
 
     // the largest element is moved at the first place

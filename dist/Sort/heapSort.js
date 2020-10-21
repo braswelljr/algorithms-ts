@@ -1,20 +1,20 @@
 class HeapSort {
     constructor(array) {
+        this.sort = () => {
+            console.log(`\nNew Heap Sort instance created`);
+            // the largest element is moved at the first place
+            this.buildMaxHeap();
+            // the first element is moved to the end and the next largest element is moved to the first place on each iteration
+            // the heapsize decreases because the end of the array become ordered
+            for (let index = this.array.length - 1; index >= 0; index--) {
+                this.swap(this.array, 0, index);
+                this.heapSize--;
+                this.maxHeap(0);
+            }
+            return this.array;
+        };
         this.array = array;
         this.heapSize = array.length;
-    }
-    sort() {
-        console.log(`\nNew Heap Sort instance created`);
-        // the largest element is moved at the first place
-        this.buildMaxHeap();
-        // the first element is moved to the end and the next largest element is moved to the first place on each iteration
-        // the heapsize decreases because the end of the array become ordered
-        for (let index = this.array.length - 1; index >= 0; index--) {
-            this.swap(this.array, 0, index);
-            this.heapSize--;
-            this.maxHeap(0);
-        }
-        return this.array;
     }
     buildMaxHeap() {
         for (let index = Math.floor(this.array.length / 2); index >= 0; index--) {

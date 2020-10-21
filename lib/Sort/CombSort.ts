@@ -8,7 +8,7 @@ class CombSort{
     this.gap = gap
   }
 
-  sort(): number[]{
+  public sort = (): number[] => {
     console.log(`\nNew Comb Sort object created`);
     while (!this.sorted) {
       if (Math.floor(this.gap) <= 1) {

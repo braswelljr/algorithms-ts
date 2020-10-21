@@ -15,7 +15,7 @@ class BubbleSort {
    * @default ascend
    * @return array
    */
-  ascend(): number [] {
+  public ascend = (): number [] => {
     let index: number = 0
     while (index < this.array.length) {
       this.array.forEach((event: any, iterator: any) => {
@@ -34,7 +34,7 @@ class BubbleSort {
    * @default ascend
    * @return array
    */
-  descend(): number [] {
+  public descend = (): number [] => {
     let index: number = 0
     while (index < this.array.length) {
       this.array.forEach((event: any, iterator: any) => {
