@@ -1,10 +1,12 @@
-import {arrayify} from '../utils/utils'
-
-export class BubbleSort {
-  array: any = []
+/**
+ *@author Braswelljr
+ *@licence
+ */
+class BubbleSort {
+  protected array: any = []
   constructor(array: any[]) {
     this.array = array
-    console.log(`New BubbleSort instance initialised`)
+    console.log(`\nNew Bubble Sort instance created`)
   }
 
   /**
@@ -46,14 +48,6 @@ export class BubbleSort {
   }
 }
 
-/**
- * Initial a new Bubble object and pass the array as a param 
- * To arrange in ascending order object.ascend()
- * object.descend() to arrange in descending order
- */
-const bubble = new BubbleSort(arrayify())
-console.log(`
-Array => ${arrayify()}
-Array(ascending order) => ${bubble.ascend()}
-Array(descending order) => ${bubble.descend()}
-`)
+module.exports = {
+  BubbleSort
+}

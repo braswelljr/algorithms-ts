@@ -1,6 +1,4 @@
-import { arrayify } from '../utils/utils'
-
-export class HeapSort {
+class HeapSort {
   [x: string]: any;
 
   constructor(array) {
@@ -9,7 +7,7 @@ export class HeapSort {
   }
 
   sort(): any[] {
-    console.log("Heap sort.");
+    console.log(`\nNew Heap Sort instance created`);
 
     // the largest element is moved at the first place
     this.buildMaxHeap();
@@ -17,7 +15,7 @@ export class HeapSort {
     // the first element is moved to the end and the next largest element is moved to the first place on each iteration
     // the heapsize decreases because the end of the array become ordered
     for (let index = this.array.length - 1; index >= 0; index--) {
-      this.array.swap(0, index);
+      this.swap(this.array, 0, index);
       this.heapSize--;
       this.maxHeap(0);
     }
@@ -25,14 +23,14 @@ export class HeapSort {
     return this.array;
   }
 
-  buildMaxHeap(): void {
+  protected buildMaxHeap(): void {
     for (let index = Math.floor(this.array.length / 2); index >= 0; index--) {
       this.maxHeap(index);
     }
   }
 
   // the largest element between i, left(i) and right(i) will take the place of i
-  maxHeap(index: number): any {
+  protected maxHeap(index: number): any {
     var left = this.left(index);
     var right = this.right(index);
     var largest = index;
@@ -46,28 +44,27 @@ export class HeapSort {
     }
 
     if (largest != index) {
-      this.array.swap(index, largest);
+      this.swap(this.array, index, largest);
       this.maxHeap(largest);
     }
   }
 
-  left(index: number): number {
+  protected swap(array: [], x, y){
+    let excess = x
+    x = y
+    y = excess
+    return this;
+  }
+
+  protected left(index: number): number {
     return 2 * index + 1; // +1 because an array start at 0
   }
 
-  right(index: number): number {
+  protected right(index: number): number {
     return 2 * index + 2; // +1 because an array start at 0
   }
 }
 
-Array.prototype.swap = function(x: any, y:any): any{
-  let excess = this[x]
-  this[x] = this[y]
-  this[y] = excess
-  return this;
+module.exports = {
+  HeapSort
 }
-const mutate = arrayify()
-const heapSort = new HeapSort(mutate);
-console.log(`
-Original => ${mutate}
-Sorted => ${heapSort.sort()}`);

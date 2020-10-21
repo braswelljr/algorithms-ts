@@ -1,15 +1,21 @@
 {
   "name": "algorithms-ts",
   "version": "1.0.0",
-  "description": "algorithms with javascript and typescript",
-  "main": "app.js",
+  "description": "Algorithms with typescript",
+  "main": "./dist/index.js",
   "directories": {
     "lib": "lib"
   },
+  "dependencies": {
+    "@types/node": "^14.14.0",
+    "nodemon": "^2.0.6",
+    "typescript": "^4.0.3"
+  },
+  "devDependencies": {},
   "scripts": {
     "build": "tsc --watch",
-    "start": "node ./dist/Sort/HeapSort.js",
-    "serve": "nodemon ./dist/Sort/HeapSort.js"
+    "start": "node",
+    "serve": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -20,10 +26,5 @@
   "bugs": {
     "url": "https://github.com/braswelljr/algorithms-ts/issues"
   },
-  "homepage": "https://github.com/braswelljr/algorithms-ts#readme",
-  "dependencies": {
-    "@types/node": "^14.11.10",
-    "nodemon": "^2.0.6",
-    "typescript": "^4.0.3"
-  }
+  "homepage": "https://github.com/braswelljr/algorithms-ts#readme"
 }

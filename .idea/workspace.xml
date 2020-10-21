@@ -2,22 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="242a5094-1f14-4f5c-b295-c2890fcc2007" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/algorithms-ts.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Sort/CombSort.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Sort/bubbleSort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Sort/bubbleSort.js.map" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Sort/bubbleSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Sort/bubbleSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Sort/bubbleSort.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Sort/bubbleSort.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Sort/combSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Sort/combSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Sort/combSort.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Sort/combSort.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/Sort/heapSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Sort/heapSort.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/Sort/heapSort.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Sort/heapSort.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/utils/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/utils/utils.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Sort/CombSort.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Sort/CombSort.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/Sort/bubbleSort.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Sort/bubbleSort.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/Sort/heapSort.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Sort/heapSort.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +47,7 @@
     <property name="ts.external.directory.path" value="C:\Users\Braswell\Desktop\Projects\server-side\algorithms-ts\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -69,10 +68,21 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.serve" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -85,6 +95,8 @@
       <option name="presentableId" value="Default" />
       <updated>1603212451401</updated>
       <workItem from="1603212453983" duration="804000" />
+      <workItem from="1603216235746" duration="340000" />
+      <workItem from="1603233887504" duration="675000" />
     </task>
     <servers />
   </component>
@@ -95,21 +107,21 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1557" height="235" key="GridCell.Tab.0.bottom" timestamp="1603213291542">
+    <state width="1557" height="235" key="GridCell.Tab.0.bottom" timestamp="1603216580719">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1603213291542" />
-    <state width="1557" height="235" key="GridCell.Tab.0.center" timestamp="1603213291532">
+    <state width="1557" height="235" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1603216580719" />
+    <state width="1557" height="235" key="GridCell.Tab.0.center" timestamp="1603216580719">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1603213291532" />
-    <state width="1557" height="235" key="GridCell.Tab.0.left" timestamp="1603213291532">
+    <state width="1557" height="235" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1603216580719" />
+    <state width="1557" height="235" key="GridCell.Tab.0.left" timestamp="1603216580719">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1603213291532" />
-    <state width="1557" height="235" key="GridCell.Tab.0.right" timestamp="1603213291532">
+    <state width="1557" height="235" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1603216580719" />
+    <state width="1557" height="235" key="GridCell.Tab.0.right" timestamp="1603216580719">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1603213291532" />
+    <state width="1557" height="235" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1603216580719" />
   </component>
 </project>

@@ -1,20 +1,16 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.HeapSort = void 0;
-const utils_1 = require("../utils/utils");
 class HeapSort {
     constructor(array) {
         this.array = array;
         this.heapSize = array.length;
     }
     sort() {
-        console.log("Heap sort.");
+        console.log(`\nNew Heap Sort instance created`);
         // the largest element is moved at the first place
         this.buildMaxHeap();
         // the first element is moved to the end and the next largest element is moved to the first place on each iteration
         // the heapsize decreases because the end of the array become ordered
         for (let index = this.array.length - 1; index >= 0; index--) {
-            this.array.swap(0, index);
+            this.swap(this.array, 0, index);
             this.heapSize--;
             this.maxHeap(0);
         }
@@ -37,9 +33,15 @@ class HeapSort {
             largest = right;
         }
         if (largest != index) {
-            this.array.swap(index, largest);
+            this.swap(this.array, index, largest);
             this.maxHeap(largest);
         }
+    }
+    swap(array, x, y) {
+        let excess = x;
+        x = y;
+        y = excess;
+        return this;
     }
     left(index) {
         return 2 * index + 1; // +1 because an array start at 0
@@ -48,16 +50,7 @@ class HeapSort {
         return 2 * index + 2; // +1 because an array start at 0
     }
 }
-exports.HeapSort = HeapSort;
-Array.prototype.swap = function (x, y) {
-    let excess = this[x];
-    this[x] = this[y];
-    this[y] = excess;
-    return this;
+module.exports = {
+    HeapSort
 };
-const mutate = utils_1.arrayify();
-const heapSort = new HeapSort(mutate);
-console.log(`
-Original => ${mutate}
-Sorted => ${heapSort.sort()}`);
 //# sourceMappingURL=HeapSort.js.map
