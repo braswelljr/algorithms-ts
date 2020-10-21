@@ -10,6 +10,7 @@ console.log(`Original Array => ${array}`)
 /**
  * Heap Sort Algorithm
  * 
+ * @type Effecient Sorts
  * @param array
  * @returns Sorted Array by calling Sorted Function
  */
@@ -19,6 +20,7 @@ console.log(`Heap Sorted => ${heap.sort()}`)
 /**
  * Bubble Sort Algorithm
  * 
+ * @type Bubble Sorts and Variants
  * @param array
  * @funcs ascend, descend
  * @returns Sorted Array by calling ascend or descend function
@@ -30,6 +32,7 @@ console.log(`Descend => ${bubble.descend()}`)
 /**
  * Comb Sort Algorithm
  * 
+ * @type Bubble Sorts and Variants
  * @param array
  * @funcs sort
  * @returns Sorted Array by calling sort function
