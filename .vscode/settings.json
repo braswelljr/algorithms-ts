@@ -1,5 +1,8 @@
 {
   "typescript.tsdk": "node_modules\\typescript\\lib",
   "vscode-md.options.mode": "ir",
-  "vscode-md.theme.code": "dracula"
+  "vscode-md.theme.code": "github",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }

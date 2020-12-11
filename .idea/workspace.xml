@@ -2,22 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="242a5094-1f14-4f5c-b295-c2890fcc2007" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/index.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/Sort/QuickSort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/Sort/QuickSort.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Sort/QuickSort.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/Sort/bubbleSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Sort/bubbleSort.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/Sort/bubbleSort.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Sort/bubbleSort.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/Sort/combSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Sort/combSort.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/Sort/combSort.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Sort/combSort.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/Sort/heapSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Sort/heapSort.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/Sort/heapSort.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Sort/heapSort.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/Sort/CombSort.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Sort/CombSort.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/Sort/bubbleSort.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Sort/bubbleSort.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/Sort/heapSort.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Sort/heapSort.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../FullStack/errntry" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Users\Braswell\Desktop\Projects\server-side\algorithms-ts\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -97,6 +97,7 @@
       <workItem from="1603212453983" duration="804000" />
       <workItem from="1603216235746" duration="340000" />
       <workItem from="1603233887504" duration="675000" />
+      <workItem from="1604833612175" duration="284000" />
     </task>
     <servers />
   </component>
@@ -107,6 +108,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="580" y="205" key="FileChooserDialogImpl" timestamp="1604833908517">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="580" y="205" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1604833908517" />
     <state width="1557" height="235" key="GridCell.Tab.0.bottom" timestamp="1603216580719">
       <screen x="0" y="0" width="1600" height="900" />
     </state>

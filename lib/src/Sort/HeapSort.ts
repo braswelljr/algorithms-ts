@@ -1,3 +1,11 @@
+/**
+ * Heap Sort Algorithm
+ * 
+ * @type Effecient Sorts
+ * @param array
+ * @returns Sorted Array by calling Sorted Function
+ */
+
 class HeapSort {
   [x: string]: any;
 
@@ -65,6 +73,4 @@ class HeapSort {
   }
 }
 
-module.exports = {
-  HeapSort
-}
+module.exports = { HeapSort }

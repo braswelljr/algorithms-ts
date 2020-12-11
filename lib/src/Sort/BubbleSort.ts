@@ -1,6 +1,10 @@
 /**
- *@author Braswelljr
- *@licence
+ * Bubble Sort Algorithm
+ * 
+ * @type Bubble Sorts and Variants
+ * @param array
+ * @funcs ascend, descend
+ * @returns Sorted Array by calling ascend or descend function
  */
 class BubbleSort {
   protected array: any = []

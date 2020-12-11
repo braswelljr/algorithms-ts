@@ -8,4 +8,4 @@ exports.arrayify = () => {
     }
     return array;
 };
-//# sourceMappingURL=utils.js.map
+//# sourceMappingURL=arrayify.js.map

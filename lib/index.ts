@@ -1,8 +1,8 @@
-import { arrayify } from '../dist/utils/utils'
-import { HeapSort } from '../dist/Sort/HeapSort'
-import { BubbleSort } from '../dist/Sort/BubbleSort'
-import { CombSort } from '../dist/Sort/CombSort'
-
+import { arrayify } from '../dist/utils/arrayify'
+import { HeapSort } from '../dist/src/Sort/HeapSort'
+import { BubbleSort } from '../dist/src/Sort/BubbleSort'
+import { CombSort } from '../dist/src/Sort/CombSort'
+import { Factorial } from '../dist/src/Recursion/Factorial'
 
 const array = arrayify()
 console.log(`Original Array => ${array}`)
@@ -18,7 +18,7 @@ const heap = new HeapSort(array)
 console.log(`Heap Sorted => ${heap.sort()}`)
 
 /**
- * Bubble Sort Algorithm
+* Bubble Sort Algorithm
  * 
  * @type Bubble Sorts and Variants
  * @param array
@@ -39,3 +39,8 @@ console.log(`Descend => ${bubble.descend()}`)
  */
 const comb = new CombSort(array, .4)
 console.log(`CombSort => ${comb.sort()}`)
+// const array = [85,99,49,55,39,54,15,55,68,81]
+// const quick = new QuickSort(array)
+// console.log(quick.sort())
+
+console.log(Factorial(9))

@@ -1,3 +1,11 @@
+/**
+ * Comb Sort Algorithm
+ * 
+ * @type Bubble Sorts and Variants
+ * @param array
+ * @funcs sort
+ * @returns Sorted Array by calling sort function
+ */
 class CombSort{
   [x: string]: any;
   sorted: boolean = false;

@@ -24,3 +24,8 @@ pnpm-debug.log*
 
 # Dynamic plugins .dll
 bin/
+
+# Editor config files
+.idea
+.vscode
+.sublime

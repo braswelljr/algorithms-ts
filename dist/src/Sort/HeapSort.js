@@ -1,3 +1,10 @@
+/**
+ * Heap Sort Algorithm
+ *
+ * @type Effecient Sorts
+ * @param array
+ * @returns Sorted Array by calling Sorted Function
+ */
 class HeapSort {
     constructor(array) {
         this.sort = () => {
@@ -50,7 +57,5 @@ class HeapSort {
         return 2 * index + 2; // +1 because an array start at 0
     }
 }
-module.exports = {
-    HeapSort
-};
+module.exports = { HeapSort };
 //# sourceMappingURL=HeapSort.js.map
